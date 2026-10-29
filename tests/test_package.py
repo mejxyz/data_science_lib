@@ -1,5 +1,8 @@
 import importlib
 
+#import iris dataset for testing
+import iris
+
 
 def test_package_and_starter_areas_are_importable():
     package = importlib.import_module("data_science_lib")
